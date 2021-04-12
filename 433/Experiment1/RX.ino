@@ -1,9 +1,8 @@
-#include <VirtualWire.h>
+#include <VirtualWire.h> //תוכנית עם מערכת תקשורת אשר מפעילה לד דרך נגד משתנה
 byte message[VW_MAX_MESSAGE_LEN];
 byte messageLength = VW_MAX_MESSAGE_LEN;
 const int receive_pin = 3;
 const int ledpin = 8;
-
 int pos = 0;
 void setup() {
   vw_set_rx_pin(receive_pin);
