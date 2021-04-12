@@ -21,23 +21,17 @@ void loop() {
     send("a");
   }
 if (potval>341 && potval<682){
-   digitalWrite(indicate_pin, LOW);
+   digitalWrite(indicate_pin, HIGH);
    Serial.print("potval = ");
     Serial.println(potval);
     send("b");
   }
-if (potval<682 && potval<1023){
+if (potval>682 && potval<1023){
 digitalWrite(indicate_pin, LOW);
    Serial.print("potval = ");
     Serial.println(potval);
     send("c");
   }
-  else {
-   digitalWrite(indicate_pin, HIGH);
-   Serial.print("potval = ");
-   Serial.println(potval);
-   send("e");
-}
 }
 void send (char *message)
 {
