@@ -1,6 +1,6 @@
-#include <VirtualWire.h>
-const int tx_pin = 2;
-const int indicate_pin = 13;
+#include <VirtualWire.h> //תוכנית עם מערכת תקשורת אשר משדרת
+const int tx_pin = 2; //RX
+const int indicate_pin = 13; //
 
 #define potpin A0
 int potval = 0;
