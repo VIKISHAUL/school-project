@@ -1,3 +1,4 @@
+// תוכנית עם כפתור שמפעיל מנוע סרוו בזכות תקשורת 433
 #include <VirtualWire.h>
 const int tx_pin = 2;
 const int indicate_pin = 13;
