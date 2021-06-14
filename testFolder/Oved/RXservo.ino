@@ -1,3 +1,4 @@
+//תוכנית עם כפתור שמפעיל מנועע סרוו בזכות מערכת תקשורת 433
 #include <VirtualWire.h>
 #include "ServoTimer2.h"
  
